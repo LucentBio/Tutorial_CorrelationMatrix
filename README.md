@@ -6,3 +6,4 @@ In this step-by-step tutorial, learn how to create a correlation matrix for expl
 <img src="https://raw.githubusercontent.com/LucentBio/correlation_matrix_from_scratch/main/figures/step_3.png" width="100%">
 <img src="https://raw.githubusercontent.com/LucentBio/correlation_matrix_from_scratch/main/figures/step_4.png" width="100%">
 <img src="https://raw.githubusercontent.com/LucentBio/correlation_matrix_from_scratch/main/figures/step_5.png" width="100%">
+<img src="figures/wine_correlation_matrix.png" width="100%">
