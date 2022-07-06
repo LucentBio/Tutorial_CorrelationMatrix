@@ -23,6 +23,35 @@ plt.show()
 <img src="figures/step_4.png" width="100%">
 <img src="figures/step_5.png" width="100%">
 
+```python
+def width_constrained_text(string_input, max_characters_per_line):
+    count = 0
+    lines_array = []
+    segments = string_input.split(" ")
+    for segment in segments:
+        if len(segment) < max_characters_per_line:
+            segment_plus = ""
+            required_length = 0
+            if count == 0:
+                required_length = len(segment)
+                segment_plus = segment
+            else:
+                required_length = len(segment) + 1
+                segment_plus = " " + segment
+            if count + required_length < max_characters_per_line:
+                if count == 0:
+                    lines_array.append(segment_plus)
+                else:
+                    lines_array[-1] += segment_plus
+                count += required_length
+            else:
+                count = len(segment)
+                lines_array.append(segment)
+        else:
+            lines_array.append(segment)
+    return "\n".join(lines_array)
+```
+
 
 <img src="figures/wine_correlation_matrix.png" width="100%">
 
