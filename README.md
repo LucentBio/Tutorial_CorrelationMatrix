@@ -4,7 +4,7 @@
 
 In this step-by-step tutorial, learn how to create a correlation matrix for exploratory data analysis in Python from scratch.
 
-### A Matrix of Subplots
+### Building the Matrix Structure
 
 ```python
 num_var = 5
