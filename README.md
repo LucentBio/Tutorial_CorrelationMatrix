@@ -4,7 +4,9 @@ Correlation is arguably the most important statistical metric in life sciences [
 
 In this step-by-step tutorial, learn how to create a correlation matrix for exploratory data analysis in Python from scratch.
 
-### Building the matrix structure
+### Setting the Stage
+
+The first step is building the matrix strucutre that ensures every feature is compared (and correlated with a Pearson coefficient) with every other feature at least once. Let's say our study has 5 variables or "features", and if each feature is to be compared with each other at least once, we will have 5^2 combinations in a matrix that is 5 rows tall and 5 columns long, with a total of 25 plots. We use the `matplotlib.pyplot` library (as `plt`) to create and render this matrix. 
 
 ```python
 num_var = 5
