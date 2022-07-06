@@ -8,7 +8,7 @@ In this step-by-step tutorial, learn how to create a correlation matrix for expl
 
 <img src="figures/step_1.png" width="100%">
 
-```{py}
+```python
 num_var = 5
 fig = plt.figure(figsize=(9, 9))
 for i in range(num_var ** 2):
