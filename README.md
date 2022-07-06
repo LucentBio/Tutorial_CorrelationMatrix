@@ -1,10 +1,10 @@
-# Correlation Matrix in Python
+# How to build a Correlation Matrix in Python from scratch
 
 <img src="figures/wine_correlation_matrix.png" width="100%">
 
 In this step-by-step tutorial, learn how to create a correlation matrix for exploratory data analysis in Python from scratch.
 
-### Building the Matrix Structure
+### Building the matrix structure
 
 ```python
 num_var = 5
